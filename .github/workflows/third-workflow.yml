@@ -1,0 +1,13 @@
+# THis is test workflow
+name: Testing workflow
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: windows-latest
+    steps:
+      - name: Print Greetings
+        run: echo "Hello world"
+      - name: Print GOodbyes
+        run: |
+              echo "first output - Good bye"
+              echo "second output - THe End."
