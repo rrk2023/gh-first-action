@@ -1,0 +1,14 @@
+# Testing workflow
+name: My Third Workflow
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: windows-latest
+    steps:
+      - name: Print Greetings
+        run: echo "Hello"
+      - name: Print GoodByes
+        run: |
+              echo "Bye"
+              echo "DOne"
+        
