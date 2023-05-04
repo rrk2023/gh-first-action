@@ -1,0 +1,13 @@
+# THis is a basic workflow
+name: My first workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greetings
+        run: echo "Hello world!"
+      - name: Print Goodbye
+        run: |
+              echo "Done Bye"
+              echo "This is multi line shell scripting"
