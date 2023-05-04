@@ -1,0 +1,15 @@
+# THis is a comment
+name: Test WOrkflow
+on: workflow_dispatch
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step1 here
+        run: |
+              echo "step1 done"
+              echo "yes"
+      - name: Step2 here
+        run: |
+              echo "Step2 done"
+              echo "Yes"
